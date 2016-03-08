@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Hush Tab",
+  "description": "d-_-b ♫♫♪ Effortless control of your background music volume while browsing the web. Click browser bar icon while on a tab with background music.",
+  "version": "0.3",
+  "browser_action": {
+    "default_icon": "hush3-zzz.png",
+    "default_title": "Click if this tab plays your background music."
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "background",
+    "tabCapture"
+  ],
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  }
+}

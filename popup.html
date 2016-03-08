@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            min-width: 267px;
+        }
+
+        .header {
+            font-weight: 600;
+        }
+
+        .cap-img {
+            background-image: url('cap.png');
+            width: 266px;
+            height: 35px;
+        }
+
+        .on-img {
+            background-image: url('hush3-on1.png');
+            width: 19px;
+            height: 19px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+        .active-img {
+            background-image: url('hush3-active.png');
+            width: 19px;
+            height: 19px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+        .inactive-img {
+            background-image: url('hush3-zzz.png');
+            width: 19px;
+            height: 19px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+        #got-it {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    Hush Tab - effortless control of your
+    background music volume while browsing the web.
+</div>
+<p>When you click <span class="inactive-img"></span> the current displaying tab
+    will be put under <b>hush control</b>.</p>
+<p>When a tab is under hush control the icon will change to <span class="on-img"></span></p>
+<p>The tab under hush control will get this blue "monitor" icon:</p>
+<div class="cap-img"></div>
+<p>Whenever <b>another</b> tab starts playing sound the hush controlled tab will be automatically
+    muted.</p>
+<p>While the background music is muted the icon will change to: <span class="active-img"></span></p>
+<p>When no other tabs are making sound the hush controlled tab will be un-muted again.</p>
+<p>Click <span class="on-img"></span> or <span class="active-img"></span> to disable Hush Tab.</p>
+<p>Simple as that!</p>
+<input id="disable-tut" type="checkbox"><label class="header" for="disable-tut">Don't show this help ever again</label>
+<button id="got-it">Got it!</button>
+<script src="popup.js"></script>
+</body>
+</html>
