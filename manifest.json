@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Hush Tab",
+  "author": "Spotify AB",
   "description": "d-_-b ♫♫♪ Effortless control of your background music volume while browsing the web. Click browser bar icon while on a tab with background music.",
   "version": "0.3",
   "browser_action": {
