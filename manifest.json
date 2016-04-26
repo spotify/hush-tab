@@ -3,7 +3,7 @@
   "name": "Hush Tab",
   "author": "Spotify AB",
   "description": "Effortless control of your background music volume while browsing the web. d-_-b ♫♪♫",
-  "version": "0.3",
+  "version": "0.4",
   "browser_action": {
     "default_icon": "hush3-zzz.png",
     "default_title": "Click if this tab plays your background music."

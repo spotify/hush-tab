@@ -47,7 +47,7 @@ if (!localStorage.disableTutorial) {
 }
 
 chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
-  if (request.understandTutorial) {
+  if (request.activate) {
     chrome.tabs.query({
       currentWindow: true,
       active: true
